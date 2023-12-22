@@ -1,10 +1,22 @@
 # Blog_Genaration_LLM_App-_using_LLAMA-2
+Built a Streamlit app showcasing a blog generation demo with the Meta Llama-2 language model. Simplifying complex tasks with intuitive user interaction for efficient content creation.
 
-## Download the Llama 2 Model:
+### Steps to Run Project :
 
-llama-2-7b-chat.ggmlv3.q8_0.bin
-
-
-
-## From the following link:
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+1.  Clone the Repository
+```
+git clone https://github.com/Anshidtp/Blog_Genaration_LLM_App-_using_LLAMA-2-
+```
+2 . Create an Environment after opening the Repository
+```
+conda create -n <env_name> python=3.9
+conda activate <env_name>
+```
+3. Install the Requirements
+```
+pip install -r requirements.txt
+```
+4. Launch your terminal and execute the following command:
+```
+streamlit run app.py
+```
